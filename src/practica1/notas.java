@@ -12,7 +12,7 @@ public class notas {
 	 * Declaramos las variables necesarias para el cálculo de notas
 	 */
 	double uf1, uf2, uf3;
-	double acu1, acu2, acu3, fin;
+	double t1, t2, t3, fin;
 	//utilizames ecaner para poder introducir datos
 	Scanner entrada = new Scanner(System.in);
 	
@@ -78,11 +78,11 @@ public class notas {
 	 */
 	
 	public void Calculonotas() {
-		acu1= uf1*0.35;
-		acu2 = uf2 * 0.35;
-		acu3 = uf3 * 0.30;
+		t1= uf1*0.35;
+		t2 = uf2 * 0.35;
+		t3 = uf3 * 0.30;
 		
-		fin = acu1 + acu2+ acu3;
+		fin = t1 + t2+ t3;
 		
 		//hasta aqui la tenemos calculada peor no la mostramos
 	}
@@ -96,9 +96,9 @@ public class notas {
 		System.out.println(" nota2 = " + uf2);
 		System.out.println(" nota3 = " + uf3);
 		
-		System.out.println(" acumuado 1 = "+ acu1);
-		System.out.println(" acumuado 2 = "+ acu2);
-		System.out.println(" acumuado 3 = "+ acu3);
+		System.out.println(" acumuado 1 = "+ t1);
+		System.out.println(" acumuado 2 = "+ t2);
+		System.out.println(" acumuado 3 = "+ t3);
 		
 		System.out.println(" nota definitiva es = "+ fin);
 		
